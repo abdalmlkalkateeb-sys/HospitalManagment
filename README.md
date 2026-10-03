@@ -1,59 +1,27 @@
-# Hospital Management System
+# Hospital Management System 🏥
 
-A hospital management system developed to manage core hospital operations, including patients, doctors, appointments, medical records, prescriptions, departments, and invoices.
+A desktop-based Hospital Management System developed using **C#**, **Object-Oriented Programming**, and **ADO.NET** to manage core hospital operations.
 
-The project was developed as a practical programming project to apply **Object-Oriented Programming**, database management, and backend development concepts using **C# and ADO.NET**.
+The project was developed as a practical programming project to apply OOP principles, database management, and application development concepts.
 
 ## Overview
 
-The system provides a structured way to manage the main operations of a hospital through different modules.
+The system provides a set of modules for managing the main operations of a hospital, including patients, doctors, appointments, departments, medical records, prescriptions, and invoices.
 
 The project was implemented in two versions:
 
-* **Console Application**
+* Console Application
 
-Both versions use the same core programming and database concepts.
-
-## Main Features
+## Features
 
 * Patient Management
 * Doctor Management
-* Appointment Management
 * Department Management
+* Appointment Management
 * Medical Records
 * Prescription Management
 * Invoice Management
 * Database CRUD Operations
-
-## Main Modules
-
-### Patients
-
-Manage patient information and their related medical data.
-
-### Doctors
-
-Manage doctors and their information, including their departments.
-
-### Appointments
-
-Create and manage appointments between patients and doctors.
-
-### Departments
-
-Manage hospital departments and their associated doctors.
-
-### Medical Records
-
-Store and manage patients' medical records.
-
-### Prescriptions
-
-Manage prescriptions associated with patients and medical records.
-
-### Invoices
-
-Manage patient invoices and billing information.
 
 ## Technologies
 
@@ -63,46 +31,76 @@ Manage patient invoices and billing information.
 * **SQL Server**
 * **Windows Forms**
 * **Object-Oriented Programming**
-* **Git**
 
-## Programming Concepts Applied
+## OOP Concepts
 
-The project was used to apply and strengthen fundamental Object-Oriented Programming concepts, including:
+The project applies the main Object-Oriented Programming principles:
 
-* Classes and Objects
 * Encapsulation
 * Inheritance
 * Polymorphism
 * Abstraction
 * Interfaces
-* Generic Collections
-* Separation of responsibilities
-* Database interaction
+* Classes and Objects
+* Generic Collections such as `List<T>`
 
 ## Database
 
-The application uses **SQL Server** as its database and **ADO.NET** for database communication.
+The application uses **SQL Server** as the database and **ADO.NET** for communication between the application and the database.
 
-The application performs common database operations such as:
+The system implements common database operations such as:
 
 * Create
 * Read
 * Update
 * Delete
-* Searching and retrieving related data
+* Data Retrieval
+* Searching
 
-## Project Structure
+## Main Modules
 
-The project is organized around the main hospital management modules, with reusable classes and database operations supporting the different system components.
+### Patients
 
-## Purpose
+Managing patient information and related medical data.
+
+### Doctors
+
+Managing doctors and their information.
+
+### Departments
+
+Managing hospital departments and their relationships with doctors.
+
+### Appointments
+
+Managing appointments between patients and doctors.
+
+### Medical Records
+
+Managing patients' medical records.
+
+### Prescriptions
+
+Managing prescriptions associated with patients and their medical records.
+
+### Invoices
+
+Managing patient billing and invoice information.
+
+## Project Purpose
 
 The main purpose of this project was to gain practical experience in:
 
-* C# programming
+* C# development
 * Object-Oriented Programming
-* Database design and SQL
+* SQL Server
 * ADO.NET
 * CRUD operations
-* Desktop application development
-* Building a complete application from requirements to implementation
+* Database-driven applications
+* Windows Forms development
+* Building a complete application from the ground up
+
+## Repository
+
+**GitHub:**
+https://github.com/abdalmlkalkateeb-sys/HospitalManagment
